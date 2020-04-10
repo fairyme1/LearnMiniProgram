@@ -33,7 +33,18 @@ App({
       }
     })
   },
+  onShow:function(options){
+      console.log(options);
+      wx.getUserInfo({
+       success: function(res){
+         console.log(res)
+       }
+      })
+  },
+
+//  全局数据
   globalData: {
-    userInfo: null
+   name:'fairy',
+   age:18,
   }
 })

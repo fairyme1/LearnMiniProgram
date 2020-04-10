@@ -1,6 +1,0 @@
-<!--pages/home.wxml-->
-<text class="title">hello word!</text>
-<button size="mini">按钮</button>
-
-<view>2.知识点-2 </view>
-
