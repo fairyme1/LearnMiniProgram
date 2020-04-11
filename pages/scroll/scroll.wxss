@@ -1,0 +1,22 @@
+/* pages/scroll/scroll.wxss */
+.container{
+  background-color: red;
+  white-space: nowrap;
+}
+.boxs{
+  background-color: salmon;
+  margin:10px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+.container2{
+  background-color: seagreen;
+  height: 200px;
+}
+.boxs2{
+  background-color: salmon;
+  margin:10px;
+  width: 100px;
+  height: 100px;
+}

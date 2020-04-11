@@ -1,0 +1,12 @@
+<!--pages/image/image.wxml-->
+<text>pages/image/image.wxml</text>
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+<image src="/asserts/img/1.jpg"></image>
+<image src='../../asserts/img/0.jpg'></image>
+<!-- 相册中的图片? -->
+<button bindtap="handleChooseAlbum">选中图片</button>
+<image src="{{imgPath}}"></image>
+<view>-----------------------</view>
+<image show-menu-by-longpress wx:for="{{10}}" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" 
+bindload="handleImageLoad" lazy-load
+></image>

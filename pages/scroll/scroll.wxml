@@ -1,0 +1,18 @@
+<!--pages/scroll/scroll.wxml-->
+<text>pages/scroll/scroll.wxml</text>
+
+<!-- 水平滚动 scroll-x -->
+<scroll-view class="container" scroll-x>
+  <view class="boxs" wx:for="{{10}}">
+  box{{item}}
+  </view>
+</scroll-view>
+<!-- 垂直滚动 -->
+<scroll-view class="container2" scroll-y 
+  bindscroll="handlescroll"
+  >
+  <view  class="boxs2"  wx:for="{{10}}">
+    {{item}}
+  </view>
+</scroll-view>
+

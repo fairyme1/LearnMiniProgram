@@ -1,2 +1,17 @@
 <!--pages/home/home.wxml-->
 <text>pages/home/home.wxml</text>
+<<<<<<< HEAD
+=======
+<view>{{msg}}</view>
+<button size="mini"
+       open-type="getUserInfo"
+        bindgetuserinfo="handleGetOutUserInfo">获取授权按钮</button>
+        
+             <view wx:for="{{list}}">{{item.title}}</view>
+             <!-- 监听view点击、 -->
+             <view bindtap="handviewclick">{{msg}}</view>
+  <!-- 直接使用组件展示用户信息 -->
+  <open-data type="userNickName"></open-data>
+  <open-data type="userAvatarUrl"></open-data>
+ 
+>>>>>>> a07ae289b419f681bc6b8d7afb4f3f8af52c834e
