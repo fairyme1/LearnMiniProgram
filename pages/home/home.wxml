@@ -1,2 +1,14 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<text>text-内置组件属性\n</text>
+<text>hello-world \n</text>
+<!-- 长按选中 ,或直接加上属性不符值表示true-->
+<text selectable='{{true}}'>你好小程序</text>
+<text selectable>你好小程序</text>
+<!-- 文本空格大小 ensp:半个中文字符大小，emsp:一个中文大小-->
+<text>hello Word1\n</text>
+<text space='nbsp'>hell Word2\n</text>
+<text space="ensp">hello Word3\n</text>
+<text space="emsp">hello Word4\n</text>
+<!-- decode是否解码文本 -->
+<text decode>5 &gt;3\n</text>
+<text decode='{{true}}'>5 &gt;3</text>

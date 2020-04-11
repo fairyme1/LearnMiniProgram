@@ -1,0 +1,13 @@
+<!--pages/button/button.wxml-->
+<text>pages/button/button.wxml</text>
+<button>按钮</button>
+<!-- 按钮属性size ：mini--从block变为inline-block -->
+<button size="mini">按钮</button>
+<button size="mini" type="primary">按钮</button>
+<button size="mini" type="default">按钮</button>
+<button size="mini" type="warn">按钮</button>
+<button  size="mini" plain>按钮</button>
+<button  size="mini" disabled>按钮</button>
+<button  size="mini" loading>按钮</button>
+<button  size="mini" hover-class="pressed">按钮</button>
+
