@@ -1,0 +1,16 @@
+<!--components/f-tab-control/f-tab-control.wxml-->
+<!-- 
+<view class="tabcontroller">
+<view class="tab-item">精选</view>
+<view class="tab-item">新款</view>
+<view class="tab-item">流行</view>
+</view> -->
+
+<view class="tabcontroller"> 
+<block wx:for="{{titles}}" wx:key="{{index}}">
+  <view class="tab-item {{currentindex == index ? 'active':''}}" bindtap="handleclick" data-index="{{index}}">
+   <text> {{item}} </text>
+   
+  </view>
+</block>
+</view>

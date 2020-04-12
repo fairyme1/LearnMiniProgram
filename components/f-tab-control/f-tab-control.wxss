@@ -1,0 +1,19 @@
+/* components/f-tab-control/f-tab-control.wxss */
+.tabcontroller{
+  background: orange;
+  display:flex;
+  height: 88rpx;
+  line-height: 88rpx;
+}
+.tab-item{
+flex: 1;
+text-align: center;
+}
+.active{
+  color: red;
+}
+/* 给文本添加样式 */
+.active text{
+  padding: 10rpx;
+border-bottom: solid 2px red;
+}

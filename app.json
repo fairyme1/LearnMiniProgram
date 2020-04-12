@@ -2,5 +2,11 @@
   "pages": [
     "pages/home/home",
     "pages/text/text"
-  ]
+  ],
+  
+  "usingComponents":{
+    "global-cpn":"/components/global-cpn/global-cpn"
+  }
+
+
 }

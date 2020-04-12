@@ -5,9 +5,32 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    counter: 0
+  },
+  incrementcpn(){
+    // 获取组件对象
+    const my_sel=this.selectComponent('.sel-class');
+    console.log(my_sel);
+    // 方法1
+    // my_sel.setData({
+    //   counter:my_sel.data.counter + 10
+    // })
+    // 方法2，调用封装的函数
+    my_sel.incrementcount(20);
   },
 
+countIncrement(event){
+  this.setData(
+    {
+      counter:this.data.counter+1
+    }
+  )
+  console.log(event)
+},
+
+changtabcontrol( event){
+  console.log(event);
+},
   /**
    * 生命周期函数--监听页面加载
    */

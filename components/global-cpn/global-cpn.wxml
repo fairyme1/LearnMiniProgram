@@ -1,0 +1,3 @@
+<!--components/global-cpn/global-cpn.wxml-->
+
+<text class="title">我是全局组件</text>

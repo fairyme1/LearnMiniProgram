@@ -1,2 +1,28 @@
 <!--pages/home/home.wxml-->
 <text>pages/home/home.wxml</text>
+<view class="title">我是主页view</view>
+<button size="mini">按钮</button>
+<!-- ______________________________________ -->
+<global-cpn/>
+<my-style/>
+<!-- -----------------组件传值-------------- -->
+<my-prop title="hahhah"/>
+<my-prop title="哈哈哈哈"/>
+<my-prop titleclass='redcolor' title='自定义传入样式1'/>
+<my-prop titleclass='bluecolor' title='自定义传入样式2'/>
+<!-- -------------------------------- -->
+<view>>当前计数：{{counter}}</view>
+<my-event bind:increment="countIncrement"/>
+<!-- 自定义组件 -->
+<f-tab-controller titles="{{['苹果','芒果','樱桃']}}" bind:changtabcontrol="changtabcontrol"/>
+<!-- 父传子 -->
+<my-sel class="sel-class"/>
+<button bindtap="incrementcpn">修改组件内的值</button>
+
+
+
+
+
+
+
+
