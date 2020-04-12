@@ -1,11 +1,12 @@
 // pages/home/home.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
-  data: {
-
+  data:{
+    isShow:true
+  },
+    changshow(){
+      this.setData({
+        isShow:!this.data.isShow
+      })
   },
 
   /**

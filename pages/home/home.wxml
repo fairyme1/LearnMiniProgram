@@ -1,2 +1,14 @@
 <!--pages/home/home.wxml-->
 <text>pages/home/home.wxml</text>
+<my-slot>
+  <button>我是替换的插槽</button>
+  <slider value="60"></slider>
+</my-slot>
+-------------------------
+<button bindtap="changshow">切换显示</button>
+<block wx:if="{{isShow}}">
+<my-mslot>
+  <button slot='slot2'>我是替换的slot2</button>
+  <button slot='slot1'>我是替换的slot1</button>
+</my-mslot>
+</block>
