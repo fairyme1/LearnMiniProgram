@@ -1,0 +1,9 @@
+/* pages/wxml/wxml.wxss */
+.box{
+  height: 100rpx;
+  background: orchid;
+}
+.active{
+  color: aqua;
+  background: palegreen;
+}

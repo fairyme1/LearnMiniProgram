@@ -1,0 +1,16 @@
+<!--pages/wxml/wxml.wxml-->
+<text>pages/wxml/wxml.wxml</text>
+
+<view>{{msg}}</view>
+<view>{{age >= 18 ?'成年人':'未成年人'}}</view>
+<view>{{nowtime}}</view>
+
+<button bindtap="changcolor">切换颜色</button>
+<view class="box {{isActive ? 'active':' '}}">哈哈哈</view>
+
+<!-- -----条件判断---- -->
+<view wx:if="{{isShow}}">hhahh</view>
+<!----------- wxs 应用----------->
+<wxs src="../../wxs/format.wxs" module="format"/>
+<view>{{format.priceFormat(20.000440,4)}}</view>
+

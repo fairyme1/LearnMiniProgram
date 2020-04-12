@@ -1,28 +1,34 @@
-// pages/home/home.js
+// pages/wxml/wxml.js
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
-    titles:['衣服','帽子','鞋子']
+    msg:'hello-word',
+    age:18,
+    nowtime: new Date().toLocaleString(),
+    isActive: false
   },
 
-  handleclick(event){
-    console.log(event);
-    const title = event.currentTarget.dataset.item;
-    const index = event.currentTarget.dataset.index;
-    console.log(title);
-    console.log(index);
-
+  
+  changcolor(){
+    this.setData({
+      isActive: !this.data.isActive
+    })
   },
+
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    setInterval(()=>{
+      this.setData({
+        nowtime:new Date().toLocaleString()
+      })
+    },1000)
   },
+
 
   /**
    * 生命周期函数--监听页面初次渲染完成
