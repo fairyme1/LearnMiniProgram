@@ -1,2 +1,6 @@
-<!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<button>按钮</button><!--pages/home/home.wxml-->
+<text>hello word</text>
+<button bindtap="handleShowToast">showToast</button>
+<button bindtap="handleShowModal">showModal</button>
+<button bindtap="handleShowLoading">showLoading</button>
+<button bindtap="handleShowAction">showAction</button>
