@@ -1,16 +1,11 @@
-// pages/home/home.js
+// pages/recommend/recommend.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    title:'哈哈哈。。。'
-  },
-  handlepushdetail(){
-    wx.navigateTo({
-      url: '/pages/detail/detail?title=你好',
-    })
+
   },
 
   /**

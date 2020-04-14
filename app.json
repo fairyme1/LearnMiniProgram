@@ -1,6 +1,21 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/text/text"
-  ]
+    "pages/detail/detail",
+    "pages/text/text",
+    "pages/recommend/recommend"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/text/text",
+        "text": "文本"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap20.json"
 }

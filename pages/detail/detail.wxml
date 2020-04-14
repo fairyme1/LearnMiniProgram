@@ -1,0 +1,5 @@
+<!--pages/detail/detail.wxml-->
+<text>pages/detail/detail.wxml</text>
+<navigator open-type="navigateBack">返回</navigator>
+<navigator url="/pages/recommend/recommend">跳到评论页</navigator>
+<button bindtap="handlebackhome"> fanhui</button>

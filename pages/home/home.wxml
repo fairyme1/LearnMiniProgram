@@ -1,2 +1,13 @@
 <!--pages/home/home.wxml-->
 <text>pages/home/home.wxml</text>
+<navigator url="/pages/detail/detail?name=fairy&age=18">跳到详情页</navigator>
+<!-- 关闭之前页面重打一个 -->
+<navigator url="/pages/detail/detail" open-type="redirect">跳到详情页redirect</navigator>
+<!-- 转到tab页面 -->
+<navigator url="/pages/text/text" open-type="switchTab">跳到tab里面有的页面swithTab</navigator>
+<!-- 关闭所有打开页面 -->
+<navigator url="/pages/detail/detail" open-type="reLaunch">跳到tab里面有的页面relaunch</navigator>
+<view>{{title}}</view>
+<!-- 通过代码跳转 -->
+<button bindtap="handlepushdetail">跳转</button>
+

@@ -1,0 +1,3 @@
+<!--pages/recommend/recommend.wxml-->
+<text>pages/recommend/recommend.wxml</text>
+<navigator open-type="navigateBack" delta="2">返回两级</navigator>
